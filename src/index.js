@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello from './hello'
 import Event from './event.js'
+import Calculator from './calculator';
 
 
 //1.测试自定义组件
@@ -37,4 +38,7 @@ function EventTest(){
 }
 
 
-ReactDOM.render(<EventTest/>,document.getElementById('root'))
+//ReactDOM.render(<EventTest/>,document.getElementById('root'))
+
+//4.操作类数据
+ReactDOM.render(<Calculator/>, document.getElementById('root'))
